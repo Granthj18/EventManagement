@@ -1,0 +1,91 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.logo {
+  font-size: 24px;
+  color: #007bff;
+  margin: 0;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.logo:hover {
+  color: #0056b3;
+}
+
+.center {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.nav-link,
+.auth-button {
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 14px;
+  border: none;
+  background-color: transparent;
+  color: #333;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-link:hover,
+.auth-button:hover {
+  background-color: #e2e6ea;
+}
+
+.search-box {
+  padding: 8px 12px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  min-width: 200px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-box:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Logout button style */
+.user-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background-color: f8f9fa;
+  border-radius: 10px;
+  color: black;
+  font-weight: 500;
+  cursor: default;
+}
+
+.auth-button.logout {
+  background-color: #dc3545;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 6px 12px;
+}
+
+.auth-button.logout:hover {
+  background-color: #c82333;
+}

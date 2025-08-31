@@ -1,0 +1,80 @@
+.register-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  font-size: 26px;
+}
+
+.register-container img {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  height: 220px;
+  object-fit: cover;
+  margin: 0 auto 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.register-container img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.register-container p {
+  font-size: 16px;
+  margin: 12px 0;
+  line-height: 1.6;
+  color: #34495e;
+}
+
+.register-container strong {
+  color: #2c3e50;
+}
+
+.register-container input[type="text"],
+.register-container input[type="number"] {
+  padding: 8px 12px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.register-container input[type="text"]:focus,
+.register-container input[type="number"]:focus {
+  border: 1px solid #3498db;
+}
+
+.register-container button {
+  padding: 12px 22px;
+  margin: 15px 10px 0 0;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.register-container button:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+}
+
+.register-container button:active {
+  transform: translateY(1px);
+}

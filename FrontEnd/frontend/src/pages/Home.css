@@ -1,0 +1,62 @@
+.home-section {
+    margin: 40px auto;
+    max-width: 900px;
+    padding: 0 20px;
+  }
+  
+  .home-section h2 {
+    margin-bottom: 16px;
+    color: #007bff;
+  }
+  
+  .events-row {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+  
+  .event-card {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 16px;
+    min-width: 200px;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 0.1);
+    flex-shrink: 0;
+  }
+  
+  .event-card h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .event-card p {
+    margin: 6px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  .register-button {
+    margin-top: 12px;
+    padding: 8px 14px;
+    font-size: 14px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    width: 100%;
+  }
+  
+  .register-button:hover {
+    background-color: #218838;
+  }
+  .event-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
